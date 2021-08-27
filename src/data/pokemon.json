@@ -1,0 +1,125 @@
+{
+  "total": 12,
+	"typesColor": {
+		"Grass": "#83c27e",
+		"Poison": "#c27ebc",
+		"Fire": "#fd8900",
+		"Water": "#051bd9",
+		"Bug": "#99b100"
+	},
+  "entries": [
+    {
+      "number": "1",
+      "name": "Bulbasaur",
+      "types": ["Grass", "Poison"],
+      "image": {
+        "src": "001.png",
+        "width": 220,
+        "height": 220
+      }
+    },
+    {
+      "number": "2",
+      "name": "Ivysaur",
+      "types": ["Grass", "Poison"],
+      "image": {
+        "src": "002.png",
+        "width": 220,
+        "height": 220
+      }
+    },
+    {
+      "number": "3",
+      "name": "Venusaur",
+      "types": ["Grass", "Poison"],
+      "image": {
+        "src": "003.png",
+        "width": 220,
+        "height": 220
+      }
+    },
+    {
+      "number": "4",
+      "name": "Charmander",
+      "types": ["Fire"],
+      "image": {
+        "src": "004.png",
+        "width": 220,
+        "height": 220
+      }
+    },
+    {
+      "number": "5",
+      "name": "Charmeleon",
+      "types": ["Fire"],
+      "image": {
+        "src": "005.png",
+        "width": 220,
+        "height": 220
+      }
+    },{
+      "number": "6",
+      "name": "Charizard",
+      "types": ["Fire"],
+      "image": {
+        "src": "006.png",
+        "width": 220,
+        "height": 220
+      }
+    },{
+      "number": "7",
+      "name": "Squirtle",
+      "types": ["Water"],
+      "image": {
+        "src": "007.png",
+        "width": 220,
+        "height": 220
+      }
+    },{
+      "number": "8",
+      "name": "Wartortle",
+      "types": ["Water"],
+      "image": {
+        "src": "008.png",
+        "width": 220,
+        "height": 220
+      }
+    },{
+      "number": "9",
+      "name": "Blastoise",
+      "types": ["Water"],
+      "image": {
+        "src": "009.png",
+        "width": 220,
+        "height": 220
+      }
+    },{
+      "number": "10",
+      "name": "Caterpie",
+      "types": ["Bug"],
+      "image": {
+        "src": "010.png",
+        "width": 220,
+        "height": 220
+      }
+    },{
+      "number": "11",
+      "name": "Metapod",
+      "types": ["Bug"],
+      "image": {
+        "src": "011.png",
+        "width": 220,
+        "height": 220
+      }
+    },{
+      "number": "12",
+      "name": "Butterfree",
+      "types": ["Bug"],
+      "image": {
+        "src": "012.png",
+        "width": 220,
+        "height": 220
+      }
+    }
+  ]
+}

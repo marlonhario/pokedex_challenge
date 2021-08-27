@@ -1,0 +1,6 @@
+.Pokedex__container {
+	padding: 30px 30px 150px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}

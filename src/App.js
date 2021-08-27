@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useMemo } from 'react';
+import Header from './common/Header';
+import Footer from './common/Footer';
+import Pokedex from './components/Pokedex';
+import Loading from './components/Loading';
+import Error from './components/Error';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { PokemonContext } from './context';
+
+function Routes() {
+	const [pokemon, setPokemon] = useState({
+		data: [],
+		loading: true,
+		error: false
+	});
+	const providerValue = useMemo(() => ({ pokemon, setPokemon }), [pokemon, setPokemon]);
+ 
+  return (
+			<PokemonContext.Provider value={providerValue}>
+				<Header />
+					<Route exact path="/" component={Pokedex} />
+					<Route path="/loading" component={Loading} />
+					<Route path="/error" component={Error} />
+				<Footer />
+			</PokemonContext.Provider>
+		
+  );
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+		<Router>
+				<div className="App__container">
+					<Routes />
+				</div>
+		</Router>
   );
 }
 
 export default App;
+
+

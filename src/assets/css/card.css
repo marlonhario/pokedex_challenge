@@ -1,0 +1,30 @@
+.Card__container {
+	width: max-content;
+	background: #747474;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 20px;
+	margin: 0 20px 30px 20px;
+}
+
+.Card__container button {
+	border-radius: 6px;
+	min-width: 100px;
+	padding: 5px 20px;
+	border: 0px;
+	color: white;
+}
+
+.Card__container .button-container button:first-child {
+	margin-right: 10px;
+}
+
+.Card__container h2 {
+	margin: 0;
+}
+
+.Card__container h3 {
+	margin-top: 0;
+}

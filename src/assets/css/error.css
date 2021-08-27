@@ -1,0 +1,10 @@
+.Error__container {
+	color: #3f3f3f;
+	text-align: center;
+	margin-top: 150px;
+}
+
+.Error__container h1 {
+	max-width: 510px;
+	margin: auto;
+}

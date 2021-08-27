@@ -1,0 +1,16 @@
+.Footer__container {
+	height: 145px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	background: #3f3f3f;
+	color: white;
+}
+
+.Footer__container p {
+	text-align: center;
+	line-height: 25px;
+}

@@ -1,0 +1,21 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+	font-weight: normal;
+	color: white;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+
+
+@import "header.css"; 
+@import "footer.css"; 
+@import "pokedex.css"; 
+@import "app.css"; 
+@import "card.css"; 
+@import "loading.css"; 
+@import "error.css"; 
